@@ -5,10 +5,17 @@ def check_divisibility(num, divisor):
     - Both num and divisor must be numeric.
     - Return True if num is divisible by divisor, False otherwise.
     """
-    return
+    if not (isinstance(num, (int, float)) and isinstance(divisor, (int, float))):
+        return -1
+    
+    return num % divisor == 0
 
 
 # Task 2
 # Invoke the function "check_divisibility" using the following scenarios:
 # - 10, 2
+task_2p1 = check_divisibility(10, 2)
+print(task_2p1)
 # - 7, 3
+task_2p2 = check_divisibility(7, 3)
+print(task_2p2)
