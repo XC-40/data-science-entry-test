@@ -17,9 +17,13 @@ def string_reverse(s):
 # Task 2
 # Invoke the function "string_reverse" using the following scenarios:
 # - "Hello World"
+
 result1 = string_reverse("Hello World")
 print("Task 2 #1:", result1)
+#Task 2 #1: dlroW olleH
 
 # - "Python"
+
 result2 = string_reverse("Python")
 print("Task 2 #2:", result2)
+#Task 2 #2: nohtyP
