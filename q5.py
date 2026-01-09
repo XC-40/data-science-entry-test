@@ -19,9 +19,13 @@ def check_divisibility(num, divisor):
 # Task 2
 # Invoke the function "check_divisibility" using the following scenarios:
 # - 10, 2
+
 result1 = check_divisibility(10, 2)
 print("Task2 #1:", result1)
+#Task2 #1: True
 
 # - 7, 3
+
 result2 = check_divisibility(7, 3)
 print("Task2 #2:", result2)
+#Task2 #2: False
