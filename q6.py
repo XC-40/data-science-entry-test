@@ -21,11 +21,13 @@ def find_first_negative(lst):
 # Task 2
 # Invoke the function "find_first_negative" using the following scenario:
 # - [3, 5, -1, 7, -2, 8]
+
 result1 = find_first_negative([3, 5, -1, 7, -2, 8])
 print("Task 2 #1:", result1)
 #Task2 #1: -1
 
 # - [2, 10, 7, 0]
+
 result2 = find_first_negative([2, 10, 7, 0])
 print("Task 2 #2:", result2)
 #Task 2 #2: No negatives
