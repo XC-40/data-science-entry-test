@@ -17,7 +17,9 @@ def swap(x, y):
 # - "Apple", 10
 result1 = swap("Apple", 10) 
 print("Task 2 #1:", result1) 
+#Task 2 #1: -1
 
 # - 9, 17
 result2 = swap(-9, 17) 
 print("Task 2 #2:", result2)
+#Task 2 #2: (-9, 17)
