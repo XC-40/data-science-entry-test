@@ -15,11 +15,13 @@ def swap(x, y):
 # Task 2
 # Invoke the function "swap" using the following scenarios:
 # - "Apple", 10
+
 result1 = swap("Apple", 10) 
 print("Task 2 #1:", result1) 
 #Task 2 #1: -1
 
 # - 9, 17
+
 result2 = swap(-9, 17) 
 print("Task 2 #2:", result2)
 #Task 2 #2: (-9, 17)
